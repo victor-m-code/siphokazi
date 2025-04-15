@@ -1,6 +1,6 @@
 import { StrictMode, lazy, Suspense } from 'react';
 import { createRoot } from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App.jsx';
 import NotFound from './pages/NotFound.jsx';
@@ -18,7 +18,7 @@ const Gallery = lazy(() => import('./pages/Gallery.jsx'));
 const Services = lazy(() => import('./pages/Services.jsx'));
 const Testimony = lazy(() => import('./pages/Testimony.jsx'));
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <App />,
