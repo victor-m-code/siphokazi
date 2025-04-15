@@ -1,0 +1,1 @@
+import{j as s,L as i,O as e}from"./index-tBrsFwVn.js";function r(){const n=[1,2,3,4];return s.jsxs("section",{children:[s.jsx("h2",{children:"Testimony"}),n.map(t=>s.jsxs(i,{to:`/testimony/${t}`,viewTransition:!0,children:["Testimony ",t," ",s.jsx("br",{})]},t)),s.jsx(e,{})]})}export{r as default};
