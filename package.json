@@ -2,7 +2,7 @@
   "name": "siphokazi-events",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://victor-m-code.github.io/siphokazi",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
